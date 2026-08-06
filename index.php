@@ -10,6 +10,6 @@
 </head>
 
 <body>
-    <h1>this aint gun be easy</h1>
+    <div class="titulo"><h1>Como usar html</h1></div>
 </body>
 </html>
