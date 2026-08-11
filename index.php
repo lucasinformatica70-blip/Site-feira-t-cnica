@@ -10,6 +10,6 @@
 </head>
 
 <body>
-    <div class="titulo"><h1>Como usar html</h1></div>
+    <div class="titulo"><h1>Guia para iniciar no Visual studio code</h1></div>
 </body>
 </html>
