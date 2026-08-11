@@ -44,19 +44,10 @@
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item" href="index.php"> Home </a>
-      <div class="navbar-item has-dropdown is-active">
-        <a class="navbar-link" href="index.php"> Docs </a>
-        <div class="navbar-dropdown is-boxed">
-          <a class="navbar-item" href="index.php"> Overview </a>
-          <a class="navbar-item" href="index.php"> Modifiers </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item" href="https://bulma.io/documentation/columns/basics/"> Columns </a>
-          <a class="navbar-item is-selected" href="https://bulma.io/documentation/layout/container/"> Layout </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/form/general/"> Form </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/elements/box/"> Elements </a>
-          <a class="navbar-item" href="https://bulma.io/documentation/components/breadcrumb/"> Components </a>
-        </div>
-      </div>
+      <a class="navbar-item" href="index.php"> Sobre nós </a>
+      <a class="navbar-item" href="index.php"> Serviços </a>
+      <a class="navbar-item" href="index.php"> Contato </a>
+      
     </div>
   </div>
 </nav>
