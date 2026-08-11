@@ -2,4 +2,21 @@
 
 .titulo {
     text-align: center;
+    font-size: 70px;
+    margin-top: 100px;
+    color: white;
+}
+
+.logodovscode {
+    text-align: center;
+    margin-top: 10px;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    margin-bottom: 100px;
 }
