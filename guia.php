@@ -4,7 +4,7 @@
     <meta author ="Lucas Vieira de Freitas, Davi Freire da Cunha Reggiani, ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós</title>
+    <title>Começo</title>
     <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./javascript/script.js" defer></script>

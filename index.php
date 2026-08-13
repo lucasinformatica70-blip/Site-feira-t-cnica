@@ -6,14 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como começar: Visual studio code</title>
+    <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./javascript/script.js" defer></script>
 </head>
 
 <body>
     <div class="titulo"><h1>Guia para iniciar<br>no Visual studio code</h1></div>
-    <div class="logodovscode"><img src="./img/vscodelogo.png" alt="Logo do visual studio code." height="90px" width="90px"></div>
+    <div class="logodovscode"><img src="./img/vscodelogo.png" alt="Logo do visual studio code." height="85px" width="85px"></div>
+<a href="guia.php">
     <button class="button is-light is-rounded is-large is-responsive">Continue</button>
+</a>
 </body>
 
 
@@ -37,6 +40,7 @@
     </div>
   </div>
 </nav>
+<div>
 <footer class="footer has-background-black-bis">
   <div class="content has-text-centered has-text-grey">
     <p>
@@ -45,5 +49,6 @@
     CEP: 30200-20<br>
     Escola estadual Presidente dutra - 2º ano informática
     </p>
+</footer>
   </div>
 </html>
