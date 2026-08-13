@@ -43,8 +43,8 @@
     </div>
   </div>
 </nav>
-<footer class="footer">
-  <div class="content has-text-centered">
+<footer class="footer has-background-black-bis">
+  <div class="content has-text-centered has-text-grey">
     <p>
       2026 Todos os direitos reservados - Lucas Vieira de Freitas, Davi Freire da Cunha Reggiani,<br>
     cnpj: 11.111.111/0001-11<br>
