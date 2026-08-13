@@ -25,20 +25,14 @@
 </svg>
 
     </a>
-    <div class="navbar-burger js-burger" data-target="navbarExampleTransparentExample">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
   </div>
 
   <div id="navbarExampleTransparentExample" class="navbar-menu">
     <div class="navbar-start">
       <a class="navbar-item" href="index.php"> Home </a>
-      <a class="navbar-item" href="index.php"> Sobre nós </a>
-      <a class="navbar-item" href="index.php"> Serviços </a>
-      <a class="navbar-item" href="index.php"> Contato </a>
+      <a class="navbar-item" href="sobre.php"> Sobre nós </a>
+      <a class="navbar-item" href="serviços.php"> Serviços </a>
+      <a class="navbar-item" href="contato.php"> Contato </a>
       
     </div>
   </div>
@@ -49,7 +43,7 @@
       2026 Todos os direitos reservados - Lucas Vieira de Freitas, Davi Freire da Cunha Reggiani,<br>
     cnpj: 11.111.111/0001-11<br>
     CEP: 30200-20<br>
-    Escola estadual Presidente dutra
+    Escola estadual Presidente dutra - 2º ano informática
     </p>
   </div>
 </html>
