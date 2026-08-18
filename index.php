@@ -5,15 +5,14 @@
     <meta author ="Lucas Vieira de Freitas, Davi Freire da Cunha Reggiani, ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Como começar: Visual studio code</title>
+    <title>base</title>
     <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./javascript/script.js" defer></script>
 </head>
 
 <body>
-    <div class="titulo"><h1>Guia para iniciar<br>no Visual studio code</h1></div>
-    <div class="logodovscode"><img src="./img/vscodelogo.png" alt="Logo do visual studio code." height="85px" width="85px"></div>
+    <div class="titulo"><h1>base<br>base</h1></div>
 <a href="guia.php">
     <button class="button is-light is-rounded is-large is-responsive">Continue</button>
 </a>
