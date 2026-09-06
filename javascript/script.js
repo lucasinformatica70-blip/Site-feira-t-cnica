@@ -1,4 +1,3 @@
-```javascript
 const slideshow = document.querySelector(".slideshow");
 const slides = document.querySelectorAll(".slide");
 const dots = document.querySelectorAll(".dot");
@@ -59,5 +58,3 @@ slideshow.addEventListener("scroll", () => {
 });
 
 setActiveDot(0);
-```
-

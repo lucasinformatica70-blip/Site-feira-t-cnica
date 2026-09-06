@@ -1,22 +1,34 @@
-```css
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
 html {
     scroll-behavior: smooth;
 }
 
+html,
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
     overflow: hidden;
 }
 
-.slideshow {
-    height: 100vh;
-    overflow-y: scroll;
+/* Slideshow */
 
-    /* Makes scrolling snap to each slide */
+.slideshow {
+    width: 100%;
+    height: 100vh;
+
+    overflow-y: auto;
+
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 .slide {
+    width: 100%;
     height: 100vh;
 
     display: flex;
@@ -24,13 +36,14 @@ body {
     justify-content: center;
 
     scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
 
 .slide-content {
     text-align: center;
 }
 
-/* Side dots */
+/* Dots */
 
 .slide-dots {
     position: fixed;
@@ -44,18 +57,24 @@ body {
     flex-direction: column;
     gap: 15px;
 
-    z-index: 10;
+    z-index: 1000;
 }
 
 .dot {
+    display: block;
+
     width: 12px;
     height: 12px;
 
+    padding: 0;
+    border: 0;
     border-radius: 50%;
 
     background: #bbb;
 
-    transition: all 0.25s ease;
+    cursor: pointer;
+
+    transition: 0.25s ease;
 }
 
 .dot.active {
@@ -74,14 +93,12 @@ body {
     width: 55px;
     height: 55px;
 
+    padding: 0;
+
     border-radius: 50%;
 
     font-size: 24px;
 
-    z-index: 10;
+    z-index: 1000;
 }
-```
 
-
-
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";

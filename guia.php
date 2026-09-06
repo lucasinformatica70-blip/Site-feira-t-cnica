@@ -64,52 +64,7 @@
     </a>
   </div>
 
-  <div id="navbarExampleTransparentExample" class="navbar-menu">
-    <div class="navbar-start">
-      <a class="navbar-item" href="index.php"> Home </a>
-      <a class="navbar-item" href="sobre.php"> Sobre nós </a>
-      <a class="navbar-item" href="serviços.php"> Serviços </a>
-      <a class="navbar-item" href="contato.php"> Contato </a>
-      
-    </div>
-  </div>
-</nav>
-    <div class="slideshow">
-       <!-- Slides --> <section class="slide" id="slide1">
-         <div c lass="slide-content">
-           <h1 class="title is-1">Welcome</h1> 
-       <p class="subtitle">This is the first slide.</p>
-         </div> </section>
-       <section class="slide" id="slide2">
-         <div class="slide-content">
-          <h1 class="title is-1">About</h1>
-        <p class="subtitle">This is the second slide.</p>
-    </div> </section>
-<section class="slide" id="slide3"> 
-<div class="slide-content">
-<h1 class="title is-1">Features</h1>
-<p class="subtitle">This is the third slide.</p>
-</div> </section>
-<section class="slide" id="slide4">
-            <div class="slide-content">
-           <h1 class="title is-1">Finish</h1>
-       <p class="subtitle">You reached the final slide!</p>
-   </div>
-         </section> <!-- Side navigation --> 
-        <div class="slide-dots">
-         <a href="#slide1" class="dot active">
-
-        </a> <a href="#slide2" class="dot">
-
-     </a> <a href="#slide3" class="dot">
-
-       </a> <a href="#slide4" class="dot">
-
-    </a> 
-      </div> <!-- Next button --> 
-     <button id="nextButton" class="button is-primary next-button">
-    \→ </button> 
-    </div>
+  
 </body>
 
 <div>
