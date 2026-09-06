@@ -11,11 +11,13 @@
     <script src="./javascript/script.js" defer></script>
 </head>
 
-<body>
-    <div class="titulo"><h1>base<br>base</h1></div>
+<body class="hero is-fullheight custom-bg">
+
+    <div class="titulo"><h1>Como a tecnologia da informação<br>é aplicada na logística</h1></div>
 <a href="guia.php">
     <button class="button is-light is-rounded is-large is-responsive">Continue</button>
 </a>
+  
 </body>
 
 <nav class="navbar is-fixed-top is-transparent">

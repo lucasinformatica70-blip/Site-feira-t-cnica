@@ -6,10 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Começo</title>
     <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styleguia.css">
     <script src="./javascript/script.js" defer></script>
 </head>
+
 <body>
+
+<div class="slideshow">
+
+    <section class="slide">
+        <div class="slide-content">
+            <h1 class="title is-1">Welcome</h1>
+            <p class="subtitle">This is the first slide.</p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="slide-content">
+            <h1 class="title is-1">About</h1>
+            <p class="subtitle">This is the second slide.</p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="slide-content">
+            <h1 class="title is-1">Features</h1>
+            <p class="subtitle">This is the third slide.</p>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="slide-content">
+            <h1 class="title is-1">Finish</h1>
+            <p class="subtitle">You reached the final slide!</p>
+        </div>
+    </section>
+
+    <div class="slide-dots">
+        <button class="dot active"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button>
+    </div>
+
+    <button id="nextButton" class="button is-primary next-button">
+        →
+    </button>
+
+</div>
   
   <nav class="navbar is-fixed-top is-transparent">
   <div class="navbar-brand">
@@ -30,8 +74,44 @@
     </div>
   </div>
 </nav>
-    
+    <div class="slideshow">
+       <!-- Slides --> <section class="slide" id="slide1">
+         <div c lass="slide-content">
+           <h1 class="title is-1">Welcome</h1> 
+       <p class="subtitle">This is the first slide.</p>
+         </div> </section>
+       <section class="slide" id="slide2">
+         <div class="slide-content">
+          <h1 class="title is-1">About</h1>
+        <p class="subtitle">This is the second slide.</p>
+    </div> </section>
+<section class="slide" id="slide3"> 
+<div class="slide-content">
+<h1 class="title is-1">Features</h1>
+<p class="subtitle">This is the third slide.</p>
+</div> </section>
+<section class="slide" id="slide4">
+            <div class="slide-content">
+           <h1 class="title is-1">Finish</h1>
+       <p class="subtitle">You reached the final slide!</p>
+   </div>
+         </section> <!-- Side navigation --> 
+        <div class="slide-dots">
+         <a href="#slide1" class="dot active">
+
+        </a> <a href="#slide2" class="dot">
+
+     </a> <a href="#slide3" class="dot">
+
+       </a> <a href="#slide4" class="dot">
+
+    </a> 
+      </div> <!-- Next button --> 
+     <button id="nextButton" class="button is-primary next-button">
+    \→ </button> 
+    </div>
 </body>
+
 <div>
 <footer class="footer has-background-black-bis">
   <div class="content has-text-centered has-text-grey">

@@ -1,7 +1,6 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
+
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Update CSS variables */
   }
 }
 
@@ -12,14 +11,22 @@
     color: white;
 }
 
-.logodovscode {
-    text-align: center;
-    margin-top: 10px;
-}
-
 body {
     margin: 0 auto;
     text-align: center;
-    
+    overflow: hidden;
+    background-image: url(Background.jpeg);
+}
+html { 
+  scroll-behavior: smooth; 
 }
 
+
+
+
+
+
+
+
+
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css";
