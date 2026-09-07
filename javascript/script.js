@@ -1,60 +1,127 @@
-const slideshow = document.querySelector(".slideshow");
 const slides = document.querySelectorAll(".slide");
 const dots = document.querySelectorAll(".dot");
 const nextButton = document.querySelector("#nextButton");
 
 let currentSlide = 0;
+let scrolling = false;
 
-function setActiveDot(index) {
-    currentSlide = index;
 
-    dots.forEach((dot, i) => {
-        dot.classList.toggle("active", i === index);
+/* Update active dot */
+
+function updateDots() {
+
+    dots.forEach((dot, index) => {
+
+        dot.classList.toggle(
+            "active",
+            index === currentSlide
+        );
+
     });
+
 }
 
-function nextSlide() {
-    if (currentSlide < slides.length - 1) {
-        currentSlide++;
-    } else {
-        currentSlide = 0;
+
+/* Go to slide */
+
+function goToSlide(index) {
+
+    if (index < 0) {
+        index = 0;
     }
 
-    slideshow.scrollTo({
-        top: slides[currentSlide].offsetTop,
+    if (index >= slides.length) {
+        index = slides.length - 1;
+    }
+
+    currentSlide = index;
+
+    window.scrollTo({
+        top: slides[index].offsetTop,
         behavior: "smooth"
     });
 
-    setActiveDot(currentSlide);
+    updateDots();
+
 }
 
-nextButton.addEventListener("click", nextSlide);
 
-dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-        slideshow.scrollTo({
-            top: slides[index].offsetTop,
+/* Next button */
+
+nextButton.addEventListener("click", () => {
+
+    if (currentSlide < slides.length - 1) {
+
+        goToSlide(currentSlide + 1);
+
+    } else {
+
+        /*
+         * At the last slide, go to the footer
+         * instead of looping back to slide 1.
+         */
+
+        document.querySelector("footer").scrollIntoView({
             behavior: "smooth"
         });
 
-        setActiveDot(index);
-    });
+    }
+
 });
 
-slideshow.addEventListener("scroll", () => {
-    let closest = 0;
-    let distance = Infinity;
+
+/* Dot buttons */
+
+dots.forEach((dot, index) => {
+
+    dot.addEventListener("click", () => {
+
+        goToSlide(index);
+
+    });
+
+});
+
+
+/* Detect current slide while scrolling */
+
+window.addEventListener("scroll", () => {
+
+    const scrollPosition = window.scrollY;
+
+    let closestSlide = 0;
+    let closestDistance = Infinity;
+
 
     slides.forEach((slide, index) => {
-        const d = Math.abs(slide.offsetTop - slideshow.scrollTop);
 
-        if (d < distance) {
-            distance = d;
-            closest = index;
+        const distance = Math.abs(
+            slide.offsetTop - scrollPosition
+        );
+
+
+        if (distance < closestDistance) {
+
+            closestDistance = distance;
+            closestSlide = index;
+
         }
+
     });
 
-    setActiveDot(closest);
+
+    if (closestSlide !== currentSlide) {
+
+        currentSlide = closestSlide;
+
+        updateDots();
+
+    }
+
 });
 
-setActiveDot(0);
+
+/* Start on slide 1 */
+
+updateDots();
+
