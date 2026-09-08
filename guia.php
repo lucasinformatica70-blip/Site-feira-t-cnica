@@ -14,7 +14,7 @@
 
 <div class="slideshow">
 
-    <<section class="slide split-slide slide-1">
+    <section class="slide split-slide slide-1">
     <div class="split-image">
         <img src="./img/Logistica1.jpg" alt="">
     </div>
@@ -28,8 +28,8 @@
     <section class="slide">
     
         <div class="slide-content">
-            <h1 class="title is-1">About</h1>
-            <p class="subtitle">This is the second slide.</p>
+            <h1 class="title is-1">sobre</h1>
+            <p class="subtitle">é um segundo slide, eu acho.</p>
         </div>
     </section>
 
@@ -60,8 +60,8 @@ Centros de distribuição da Amazon</p>
 
     <section class="slide">
         <div class="slide-content">
-            <h1 class="title is-1">Finish</h1>
-            <p class="subtitle">You reached the final slide!</p>
+            <h1 class="title is-1">final</h1>
+            <p class="subtitle">Surpresa, o ultimo slide.</p>
         </div>
     </section>
 
@@ -110,3 +110,5 @@ Centros de distribuição da Amazon</p>
 </footer>
   </div>
 </html>
+
+<!--alguem me ajuda essa bosta não funcionou eu odeio javascript help help help socorro!-->

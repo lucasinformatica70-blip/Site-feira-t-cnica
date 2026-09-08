@@ -17,13 +17,12 @@ body {
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    background-image: url(Background.jpeg);
 }
 html { 
   scroll-behavior: smooth; 
 }
 
-
+/*Originalmente a pagina principal ia ter um background top mas eu esqueci como colocar imagens de fundo OU o ddev não mostra imagens de fundo, eu uso ddev já que o xammp no linux é ruim.*/
 
 
 

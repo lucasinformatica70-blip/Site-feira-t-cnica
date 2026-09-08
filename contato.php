@@ -98,3 +98,5 @@
 </footer>
   </div>
 </html>
+
+<!--esse código não funciona e é só pra decoração, eu não sei nada de php !-->

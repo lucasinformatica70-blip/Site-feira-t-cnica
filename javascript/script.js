@@ -1,0 +1,1 @@
+console.log("Só pra ter certeza de que pelo menos esse js ta funcionando, A.K.A um check de sanidade")

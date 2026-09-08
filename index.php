@@ -8,7 +8,7 @@
     <title>base</title>
     <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./javascript/script.js" defer></script>
+    <script src="./javascript/Script.js" defer></script>
 </head>
 
 <body class="hero is-fullheight custom-bg">
@@ -51,3 +51,6 @@
 </footer>
   </div>
 </html>
+
+<!--aloooooneee at the edge of the universe again...!-->
+<!--olha o nome de quem fez todos os commits do repositório. !-->
