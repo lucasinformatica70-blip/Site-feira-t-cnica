@@ -30,7 +30,19 @@
     </div>
   </div>
 </nav>
-    
+    <section class="section is-large">
+      Sobre o nosso site
+
+Nosso site fala sobre como a Tecnologia da Informação (TI) é usada na Logística. A gente mostra como a tecnologia ajuda as empresas a organizar os produtos, controlar o estoque, acompanhar as mercadorias e deixar o processo de distribuição mais rápido e eficiente.
+
+No site, também mostramos algumas tecnologias usadas na logística, como computadores, sistemas de controle, códigos de identificação e esteiras.
+
+O que nós oferecemos
+
+Como criadores, a gente tmbb oferece um site com informações e exemplos de como a TI pode ajudar na logística. A nossa intenção é explicar o assunto de um jeito simples e fácil de entender, mostrando como a tecnologia está presente em várias etapas, desde a chegada dos produtos até a distribuição.
+
+O principal objetivo do nosso projeto é mostrar que TI e Logística trabalham juntas para melhorar a organização, diminuir erros e economizar tempo.
+    </section>
 </body>
 <div>
 <footer class="footer has-background-black-bis">
