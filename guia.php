@@ -20,16 +20,23 @@
     </div>
 
     <div class="split-text">
-        <h1 class="title">Seu título</h1>
-        <p>Seu texto aqui.</p>
+        <h1 class="title">O que é logística e informática</h1>
+        <p>Logística é a área responsável por organizar e controlar o transporte, armazenamento e distribuição de produtos, desde a origem até o consumidor. A informática é o uso de computadores, sistemas e tecnologias para armazenar, processar e organizar informações, facilitando as atividades de uma empresa.
+</p>
     </div>
 </section>
 
     <section class="slide">
     
         <div class="slide-content">
-            <h1 class="title is-1">sobre</h1>
-            <p class="subtitle">é um segundo slide, eu acho.</p>
+            <h1 class="title is-1">Como a informática é aplicada na logística</h1>
+            <p class="subtitle">A informática é aplicada na logística por meio de sistemas que ajudam a controlar estoques, pedidos, transportes e entregas. Tecnologias como códigos de barras, GPS e sistemas de gerenciamento permitem acompanhar produtos em tempo real, reduzir erros, diminuir custos e tornar as entregas mais rápidas e eficientes.
+
+
+* Ministério dos Transportes — Plano Nacional de Logística (PNL). 
+* SENAI — Inovação e Tecnologia em Logística. 
+* SENAI — Digitalização dos Processos Industriais. 
+* Siscomex/Governo Federal — Logística e modais de transporte.</p>
         </div>
     </section>
 
@@ -47,21 +54,25 @@
 <p>São mais de 33,5 mil metros quadrados de área, o equivalente a três campos de futebol. Dentro dele são armazenados mais de 45 milhões de produtos de 30 categorias.
 </p>
 <br>
-<p>
-Fontes:
-Estado de Minas
-https://www.em.com.br
-Veja como funciona o centro de distribuição da Amazon em Minas Gerais
-Amazon
-https://sellercentral.amazon.com.br
-Centros de distribuição da Amazon</p>
+    <p>
+    Fontes:
+    Estado de Minas
+    https://www.em.com.br
+    Veja como funciona o centro de distribuição da Amazon em Minas Gerais
+    Amazon
+    https://sellercentral.amazon.com.br
+    Centros de distribuição da Amazon
+    </p>
     </div>
 </section>
 
     <section class="slide">
         <div class="slide-content">
-            <h1 class="title is-1">final</h1>
-            <p class="subtitle">Surpresa, o ultimo slide.</p>
+            <h1 class="title is-1">Conclusão</h1>
+            <p class="subtitle">
+Com esse trabalho, a gente conseguiu entender melhor como a TI pode ser usada na Logística e como ela ajuda a deixar tudo mais organizado e rápido. Também aprendemos que a tecnologia está presente em várias partes do processo, desde o controle dos produtos até a distribuição.
+
+A criação do nosso site ajudou a gente a entender melhor esse assunto e mostrar de uma forma simples como a tecnologia pode facilitar o trabalho nas empresas. No final, percebemos que TI e Logística juntas são muito importantes para melhorar os processos e evitar erros.</p>
         </div>
     </section>
 

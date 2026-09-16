@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<html class="has-navbar-fixed-bottom">
 <head>
     <meta author ="Lucas Vieira de Freitas, Davi Freire da Cunha Reggiani, Matheus Ferreira Valadares Cruz, ">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>base</title>
-    <link rel="icon" type="image/png" sizes="64x64" href="./img/logotipo.png">
     <link rel="stylesheet" href="./css/style.css">
     <script src="./javascript/Script.js" defer></script>
 </head>
