@@ -51,4 +51,3 @@
 </html>
 
 <!--aloooooneee at the edge of the universe again...!-->
-<!--olha o nome de quem fez todos os commits do repositório. !-->
